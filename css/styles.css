@@ -113,9 +113,9 @@ ul {
   opacity: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.site-nav-link.curent::after,
-.site-nav-link.curent:hover,
-.site-nav-link.curent:focus {
+/* .site-nav-link.curent:hover,
+.site-nav-link.curent:focus */
+.site-nav-link.curent::after {
   opacity: 1;
   position: absolute;
   bottom: calc(0% - 1px);
